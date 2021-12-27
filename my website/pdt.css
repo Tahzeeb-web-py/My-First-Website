@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu&display=swap');
+body{
+    background-color: #0000;
+}
+.dd-dd{
+    background-color: black;
+    margin: 1px;
+    padding-left: 10px;
+}
+nav, button .home{
+    padding-right: 10px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #BC6FF1;
+    color: #fff;
+    position:static ;
+}
+.nav-links a{
+    display: flex;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 20px;
+    border-style:none;
+    border-left: white;
+    
+
+}
+.nav-links li{
+    list-style-type: none;
+    display: inline;
+    
+}
+.nav-links a:hover{
+    color:black;
+    
+}
+.logo{
+    font-size: 32px;
+    font-weight: 1000;
+    color: black;
+}
+.home{
+    margin: 60px 0px 0px 0px;
+    padding-top: 150px;
+    height: 520px;
+    background-color:#000000;
+    color: white;
+    text-align: center;
+
+}
+.about{
+    background-color:#52057B;
+    color: white;
+    text-align: center;
+}
+.skills{
+    background-color: #52057B;
+    color: white;
+    text-align: center;
+}
+
+
+.project{
+    background-color: #52057B;
+    margin: 0px 10px 0px 10px;
+    padding: 20px;
+}
+.ff>h2{
+    color: white;
+    padding-bottom: 15px;
+}
+.project-list{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+.card-footer>a{
+    display: block;
+    padding: 10px, 5px;
+    margin: 5px 100px;
+    text-decoration: none;
+    background-color:rgb(117, 252, 117);
+    color: red;
+}
+
+.card>img{
+    padding-top: 15px;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects-card{
+    padding: 15px;
+    text-align: center;
+
+  }
+  
+
+
+.service{
+    background-color: #892CDC;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+}
+.ss>h1{
+    color: white;
+}
+.box {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 40px;
+}
+
+.our-services {
+    margin-top: 40px;
+    padding: 20px;
+    min-height: 198px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, .17)
+}
+
+
+.our-services:hover h4,
+.our-services:hover p {
+    color: #fff
+}
+
+.adnroid:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
+}
+
+.software:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
+}
+
+.webdevelopment:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
+}
+
+.Web-Hosting:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
+}
+
+.API:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
+}
+
+.Digital-marketing:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
+}
+.testomonial{
+    margin: 15px;
+    background-color: white;
+    text-align: center;
+}
+.project{
+    background-color: #892CDC;
+    text-align: center;
+}
+
+
+
+
+
+
+.contactme-top{
+    background-image: linear-gradient(-45deg, #ec1101 0%, #F05454 100%);
+    color: white;
+    font-size: 19px;
+    padding: 2px 8px 2px 8px;
+    border-radius: 20px;
+}
+.logo a{
+    text-decoration:none;
+    color: white;
+
+}
+.logo a:hover{
+    color:white;
+
+}
+.contactme-top:hover{
+    color: black;
+    background-image:linear-gradient(-45deg, #27b88d 0%, #22dd73 100%);
+    font-size: 19px;
+    font-weight: 700;
+    position: -ms-page;
+}
+
+.logo{
+    transition: cubic-bezier();
+}
+.home-img img{
+    width: 200px;
+    height: 200px;
+    margin-top: -50px;
+}
+
+
+.contactme{
+    background-color: #AD62AA;
+    text-align: center;
+}
+.cal-img{
+    background-image: radial-gradient(rgba(
+              145, 146, 122, 0.62), rgba(217, 91, 132, 0.58)), url('img\CONTACT.png');
+    height: 350px;
+    width: 450px;
+    margin: 10px;
+    padding: 25px;
+}
+.footer{
+    
+    background-color:#BC6FF1;
+    color: black;
+    text-align: center;
+    margin: 25px 10px;
+    padding: 10px;
+}
