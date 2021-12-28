@@ -10,9 +10,9 @@
 </head>
 <body>
   
-  <div class="navbar fixed-top" id="navbar">
-    <div class="logo">py_dev_tahzeeb</div>
-    <div class="nav-links">
+  <div class="navbar hidden-xs fixed-top" id="navbar">
+    <div class="logo" id="logo">py_dev_tahzeeb</div>
+    <div class="nav-links" id="nav-list">
       |
       <li><a href="#Home">Home</a></li>
       |
@@ -39,11 +39,54 @@
     </div>
         
     </div>
-    <div class="about" id="About">
-        ABOUT
-    </div>    
+    <section id="About">
+      <div class="about">
+        <div class="container">
+          <div class="row">
+            <div class=" col col-md">
+              <img src="img\pngwing.com.png" alt="">
+            </div>
+            <div class="col-md">
+              <div class="about-heading">
+                <h3>About</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, doloremque! Nisi qui rerum id? Inventore aliquid officiis pariatur repudiandae mollitia adipisci nobis eius autem ad quos dicta quas accusantium, ex facilis velit eligendi ea. Dolor ea soluta sed delectus molestiae accusantium facere molestias?</p></div>
+            </div>
+          </div>
+        </div>
+      </div> 
+  </section>   
     <div class="skills" id="Skills">
-        SKILLS
+      <h4>My Skills</h4>
+      <div class="container">
+        <div class="row">
+          <div class="skill-col col-sm">
+            
+            <h6>Python Programming</h6>
+            <div class="progress">
+              <div class="progress-go progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%</div>
+            </div>
+            <h6>Python Libraries</h6>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 15%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="200">Pandas</div>
+              <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="200">Numpy</div>
+              <div class="progress-bar bg-primary progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="200">Scipy</div>
+              <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 18%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="200">metplotlib</div>
+              <div class="progress-bar bg-primary progress-bar-striped" role="progressbar" style="width: 15%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="200">scrapy</div>
+              <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="200">Tkinter</div>
+              
+            </div>
+            <h6>Python Frameworks</h6>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="30" aria-valuemax="100">Django</div>
+              <div class="progress-bar white progress-bar-striped bg-black progress-bar-animated" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="30" aria-valuemax="100">Flask</div>
+
+            </div>
+          </div>
+          <div class="col-sm">
+            Column
+          </div>
+        </div>
+      </div>
     </div>
     <div class="service" id="Services">
         <div class="container-fluid mb-5">
@@ -51,56 +94,45 @@
               <h1>My Services</h1>
           </div>
           <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-3">
                   <div class="box">
                       <div class="our-services software">
-                          <h4>Software Development</h4>
+                          <h4><strong>Software Development</strong></h4>
+                          <hr>
                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                       </div>
                   </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-3">
                   <div class="box">
                       <div class="our-services webdevelopment">
-                          <h4>Website Development</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                          <h4><strong>Website Development</strong></h4>
+                          <hr>
+                          <p>Do you need a professional website fully running your business. You are at the right place!. I will give you a fully functional and fully designed website using Python Frameworks, and MERN Stack Development. 
+
+                            I can Provide you want with higher level of scalability and security Websites. I will asure you that i can provide Cheapest Single page Website at <strong>999/-</strong></p>
                       </div>
                   </div>
-              </div>
-              <div class="col-md-4">
-                  <div class="box">
-                      <div class="our-services adnroid">
-                          <h4>Android Development</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-md-4">
-                  <div class="box">
-                      <div class="our-services Web-Hosting">
-                          <h4>Web Hosting</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-4">
+              </div> 
+              <div class="col-md-3">
                   <div class="box">
                       <div class="our-services API">
-                          <h4>API Development</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                          <h4><strong>API<br>Development</strong></h4>
+                          <hr>
+                          <p>I Develop API(Application programming interface).I believe in client satisfaction. My expertise is in python and I write python scripts which automate your tasks and make your life easier. I can write wide range of scripts, scrapping using Selenium/Requests, API Integration deployed on <strong>Flask</strong> or <strong>Django</strong> web app.
+                          </p>
                       </div>
                   </div>
               </div>
-              <div class="col-md-4">
-                  <div class="box">
-                      <div class="our-services Digital-marketing">
-                          <h4>Digital Marketing</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                      </div>
-                  </div>
-              </div>
+              <div class="col-md-3">
+                <div class="box">
+                    <div class="our-services Data-science">
+                        <h4><strong>Data Science/ Machine Learning</strong></h4>
+                        <hr>
+                        <p>If you are looking for someone who can provide you professional work related to <strong>Machine learning(ML), Data Science(DS)</strong>. Congrats dear, you are at right spot.</p>
+                    </div>
+                </div>
+            </div>
           </div>
       </div>
 
@@ -186,11 +218,13 @@
       <div class="container">
         <div class="row justify-content-md-center">
           <div class="col col-lg-6">
-            <div class="cal-img"></div>
+            <div class="cal">
+              
+            </div>
           </div>
           
           <div class="col col-lg-6">
-            3 of 3
+            
           </div>
         </div>
       </div>
@@ -202,5 +236,6 @@
       Designed by Py_dev_tahzeeb(PDT)
         
     </footer>
+    <script src="pdt.js"></script>
 </body>
 </html>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500;1,700&display=swap');
 body{
     background-color: #0000;
 }
@@ -11,13 +12,19 @@ nav, button .home{
     padding-right: 10px;
 }
 .navbar{
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
     background-color: #BC6FF1;
     color: #fff;
-    position:static ;
+    position:static;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    border-top:2px solid white;
+    border-bottom-left-radius: 45px;
+    border-top-right-radius: 45px;
 }
 .nav-links a{
     display: flex;
@@ -29,6 +36,7 @@ nav, button .home{
     padding-right: 20px;
     border-style:none;
     border-left: white;
+    border-right: white;
     
 
 }
@@ -39,79 +47,109 @@ nav, button .home{
 }
 .nav-links a:hover{
     color:black;
+    font-weight: 1000;
+    text-shadow: 2px 2px white;
     
 }
 .logo{
+    padding-left: 10px;
     font-size: 32px;
     font-weight: 1000;
     color: black;
 }
+.logo:hover{
+    color: white;
+    text-shadow: 2px 2px black;
+}
 .home{
-    margin: 60px 0px 0px 0px;
+    margin: 0px;
     padding-top: 150px;
-    height: 520px;
+    height: 95vh;
     background-color:#000000;
     color: white;
     text-align: center;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 45px;
 
+}
+.home-img img{
+    width: 200px;
+    height: 200px;
+    margin-top: -50px;
+}
+.home-img>h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
 }
 .about{
     background-color:#52057B;
     color: white;
     text-align: center;
+    margin: 5px;
+    border: 3px solid black;
+    border-radius: 45px;
+}
+.col>img{
+    height: 200px;
+    width: 200px;
+    padding:25px;
+}
+.about-heading{
+    float: left;
+    margin: 10px;
+}
+.about-heading>h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .skills{
     background-color: #52057B;
     color: white;
     text-align: center;
+    margin: 5px;
+    border: 3px solid black;
+    border-radius: 45px;
 }
-
-
-.project{
-    background-color: #52057B;
-    margin: 0px 10px 0px 10px;
+.skill-col{
+    margin: 10px;
     padding: 20px;
 }
-.ff>h2{
-    color: white;
+.skills>h4{
+    font-size: 29px;
+    font-weight: 700;
     padding-bottom: 15px;
 }
-.project-list{
-    color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-  }
-.card-footer>a{
-    display: block;
-    padding: 10px, 5px;
-    margin: 5px 100px;
-    text-decoration: none;
-    background-color:rgb(117, 252, 117);
-    color: red;
+.skill-col>h6{
+    margin-left: 0px;
+    padding-left: 5px;
+    
 }
-
-.card>img{
+.progress{
+    padding:2px;
+    
+}
+.skill-col>h6{
+    text-align: left;
     padding-top: 15px;
-    height: 200px;
-    width: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+}
+.progress .progress-bar{
+    color: black;
+    font-weight: 700;
+}
+.progress .white{
+    color: white;
+    font-weight: 700;
 }
 
-.projects-card{
-    padding: 15px;
-    text-align: center;
 
-  }
-  
 
 
 .service{
     background-color: #892CDC;
     text-align: center;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 10px 15px 10px;
+    border: 3px solid black;
+    border-radius: 45px;
 }
 .ss>h1{
     color: white;
@@ -119,9 +157,10 @@ nav, button .home{
 .box {
     position: relative;
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
     padding-bottom: 40px;
+    
 }
 
 .our-services {
@@ -132,7 +171,8 @@ nav, button .home{
     border-radius: 10px;
     background-color: #fff;
     transition: all .4s ease-in-out;
-    box-shadow: 0 0 25px 0 rgba(20, 27, 202, .17)
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, .17);
+    height: 450px;
 }
 
 
@@ -141,50 +181,104 @@ nav, button .home{
     color: #fff
 }
 
-.adnroid:hover {
-    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
-    cursor: pointer;
-    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
-}
 
 .software:hover {
     box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
     cursor: pointer;
-    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
+    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%);
+    height:360;
+    width: 360;
 }
 
 .webdevelopment:hover {
     box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
     cursor: pointer;
-    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%);
+    height:360;
+    width: 360;
 }
 
-.Web-Hosting:hover {
-    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
-    cursor: pointer;
-    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
-}
 
 .API:hover {
     box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
     cursor: pointer;
-    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
+    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%);
+    height:360;
+    width: 360;
+    
 }
 
-.Digital-marketing:hover {
+.Data-science:hover {
     box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
     cursor: pointer;
-    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%);
+    height:360;
+    width: 360;
 }
 .testomonial{
     margin: 15px;
     background-color: white;
     text-align: center;
 }
+
 .project{
     background-color: #892CDC;
-    text-align: center;
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 25px;
 }
+.ff>h2{
+    color: white;
+    padding-bottom: 15px;
+    text-align: center;
+    
+}
+.project-list{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: center;
+
+  }
+  .project-list{
+    border-radius: 3px solid black;
+  }
+.card-footer>a{
+    align-content: center;
+    display: block;
+    padding: 10px, 5px;
+    margin: 5px 100px;
+    transition-duration: 1s;
+    text-decoration: none;
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%);
+    color:white;
+}
+.card-footer>a:hover{
+    color: black;
+    transition-duration: 1s;
+    font-weight: 800;
+    background-image: linear-gradient(-45deg, #ec1101 0%, #F05454 100%);
+}
+
+.card>img{
+    padding-top: 15px;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.projects-card{
+    padding: 15px;
+    text-align: center;
+    border-radius: 3px solid black ;
+
+  }
+  
 
 
 
@@ -215,28 +309,13 @@ nav, button .home{
     position: -ms-page;
 }
 
-.logo{
-    transition: cubic-bezier();
-}
-.home-img img{
-    width: 200px;
-    height: 200px;
-    margin-top: -50px;
-}
-
 
 .contactme{
     background-color: #AD62AA;
     text-align: center;
+    margin:0px 10px 0px 10px;
 }
-.cal-img{
-    background-image: radial-gradient(rgba(
-              145, 146, 122, 0.62), rgba(217, 91, 132, 0.58)), url('img\CONTACT.png');
-    height: 350px;
-    width: 450px;
-    margin: 10px;
-    padding: 25px;
-}
+
 .footer{
     
     background-color:#BC6FF1;
@@ -244,4 +323,13 @@ nav, button .home{
     text-align: center;
     margin: 25px 10px;
     padding: 10px;
+}
+@media only screen and (max-width: 400px) {
+    #nav-list {
+        display: none;
+
+    }
+    #logo{
+        text-align: center;
+    }
 }
