@@ -112,7 +112,10 @@ nav, button .home{
 }
 .skill-col{
     margin: 10px;
-    padding: 20px;
+    
+}
+.skills .container{
+    padding: right 30px;
 }
 .skills>h4{
     font-size: 29px;
@@ -122,10 +125,12 @@ nav, button .home{
 .skill-col>h6{
     margin-left: 0px;
     padding-left: 5px;
+    padding-right: 10px;
     
 }
 .progress{
     padding:2px;
+    
     
 }
 .skill-col>h6{
@@ -139,6 +144,11 @@ nav, button .home{
 .progress .white{
     color: white;
     font-weight: 700;
+    
+
+}
+.progress-lg{
+    height:20px;
 }
 
 
@@ -324,7 +334,7 @@ nav, button .home{
     margin: 25px 10px;
     padding: 10px;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 415px) {
     #nav-list {
         display: none;
 
@@ -332,4 +342,9 @@ nav, button .home{
     #logo{
         text-align: center;
     }
+    #Skills #container{
+        padding-right: 40px;
+        padding-bottom: 10px;
+    }
+
 }
